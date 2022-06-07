@@ -5,10 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    
     <title>rock-paper-scissors</title>
 </head>
 <body>
+    <h1>Rock Paper Scissors</h1>
+
+    <div>
+        <div class="userUI">
+            <p>What do you choose?</p>
+            <img id="rock-img" src="./img/rock1.png" alt="" class="rock">
+
+            
+        </div>
+    
+        <div class="info">
+        
+        </div>
+    
+        <div class="computerUI">
+            <p>computer choice</p>
+            <img id="computer-img" src="./img/rock2.png" alt="rock" class="rock" >
+        </div>
+
+      
+    </div>
+    
+
+    <div class="btn-div">
+        <button class="btn" onclick="btn1()">
+            <img src="./img/rock1.png" alt="" srcset="" class="userchoice">
+        </button>
+        <button class="btn" id="btn2" onclick="btn2()">
+            <img src="./img/paper1.png" alt="" srcset="" class="userchoice">
+        </button>
+        <button class="btn" onclick="btn3()">
+            <img src="./img/scissors1.png" alt="" srcset="" class="userchoice">
+        </button>
+    </div>
+
+    <button class="click-me" id="click">Click me</button>
     
 </body>
+<script src="script.js"></script>
 </html>
