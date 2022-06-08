@@ -13,19 +13,23 @@
 
     <div>
         <div class="userUI">
-            <p>What do you choose?</p>
+            <p id = "usr" >Player</p>
             <img id="rock-img" src="./img/rock1.png" alt="" class="rock">
-
+            <p class="choice" id="user-chose">user chose:</p>
             
         </div>
     
-        <div class="info">
-        
+        <div class="info" id="info">
+            <p class="msg" id="msg"></p>
+            <p class="p-info" id="player-score">0</p>
+            <p class="p-info">:</p>
+            <p class="p-info" id="computer-score">0</p>
         </div>
     
         <div class="computerUI">
-            <p>computer choice</p>
+            <p id = "comp" >Computer</p>
             <img id="computer-img" src="./img/rock2.png" alt="rock" class="rock" >
+            <p class="choice" id = "computer-chose">computer chose</p>
         </div>
 
       
@@ -33,18 +37,20 @@
     
 
     <div class="btn-div">
-        <button class="btn" onclick="btn1()">
+        <button class="btn" id="btn1" onclick="btn1();btnColor1()">
             <img src="./img/rock1.png" alt="" srcset="" class="userchoice">
         </button>
-        <button class="btn" id="btn2" onclick="btn2()">
+        <button class="btn" id="btn2" onclick="btn2();btnColor2()">
             <img src="./img/paper1.png" alt="" srcset="" class="userchoice">
         </button>
-        <button class="btn" onclick="btn3()">
+        <button class="btn" id="btn3" onclick="btn3(); btnColor3()">
             <img src="./img/scissors1.png" alt="" srcset="" class="userchoice">
         </button>
     </div>
 
-    <button class="click-me" id="click">Click me</button>
+    
+    <button class="click-me" id="click">Play</button>
+    
     
 </body>
 <script src="script.js"></script>

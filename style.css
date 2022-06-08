@@ -10,23 +10,62 @@ h1{
 }
 
 p{
-    color: bisque;
     font-weight: lighter;
     margin-left: 100px;
 }
 
+#usr {
+
+    color: green;
+    font-size: 60px;
+    margin-top: -60px;
+
+}
+
+
+div #comp {
+
+    color: red;
+    font-size: 60px;
+    margin-top: -60px;
+    margin-left: -10px;
+
+}
 .userUI{
     width: 600px;
-    height: 500px;
+    height: 560px;
     float: right;
     margin-right: 40px;
     margin-top: 50px;
 }
 
 .info {
-    width: 300px;
+    width: 350px;
     height: 500px;
     margin-left: 550px;
+}
+
+.p-info {
+    color: antiquewhite;
+    font-size: 30px;
+    margin-left: 40px;
+    padding-right: 50px;
+    padding-top: 20px;
+    float: right;
+}
+
+.msg {
+    color: antiquewhite;
+    font-size: 20px;
+    margin-left: 130px;
+}
+
+#player-score {
+    color: green;
+}
+
+#computer-score {
+    color: red;
 }
 
 
@@ -52,12 +91,12 @@ p{
 }
 
 .btn{
-    background-color: black;
     width: 100px;
     height: 70px;
-    border: 1px solid beige;
+    border: 3px solid #5999ff;
     border-radius: 50%;
     margin-right: 20px;
+    margin-top: 20px;
     display: inline-block;
 }
 
@@ -68,10 +107,15 @@ p{
 }
 
 .click-me {
-    background-color: black;
-    color: bisque;
-    border: 1px solid beige;
+    color: black;
+    border: 3px solid #5999ff;
     border-radius: 50%;
     width: 100px;
     height: 50px;
+}
+
+.choice {
+    color: beige;
+    margin-top: 100px;
+    margin-left: 60px;
 }
